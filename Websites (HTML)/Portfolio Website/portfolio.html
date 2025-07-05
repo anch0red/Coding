@@ -27,6 +27,18 @@
         My styling experimenter for HTML and CSS elements can be found <a href="stylingExperimenter.html"> here.</a>
         <br>
         My HTML Document for seeing different HTML and CSS elements displayed can be found <a href="experimentation.html"> here.</a>
+        <br>
+        Submit feedback on the website via this form:
+        <br>
+        <form action="/feedback.php">
+            <label>Name(Optional):</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label>Page Rating:</label><br>
+            <input type="range" id="rating" name="rating" min="0" max="10" value="5"><br>
+            <label>Other Feedback (Optional):</label><br>
+            <input type="text" id="feedback" name="feedback"><br>
+            <input type="submit" value="Submit Feedback"> <input type="reset" value="Reset Form"> <br>
+        </form>
     </p>
 </body>
 </html>

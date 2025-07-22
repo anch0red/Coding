@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Anchored's Portfolio</title>
+</head>
+<body>
+    <h1> Portfolio </h1>
+    <br>
+    <!-- The solo projects are all projects that I have full independent control over (so probably mainly university coursework)
+    The contributor projects will be links to github repos that I have contributed to or I might be the host for some of them
+    if they were a group project.
+    Create a database structure. Would be one for solo projects, one for contributed to projects, and one for contributors.
+    Might be able to pull data directly from github? Not sure.
+    StylingExperimenter is a HTML page with a bunch of interactable javaScript elements for testing out HTML and CSS formatting
+    and display options.
+    Experimentation.html is literally just a random ass page for if I need to mess around with something else.
+    -->
+    <p> 
+        Welcome to my portfolio, this will be where I host all my independent projects that I've worked on.
+        <br>
+        <img src="anchoredIcon.png" alt="Anchored Icon"width="100" height="100">
+        <br>
+        All my solo projects can be found <a href="soloProjects.html"> here.</a>
+        <br>
+        All my projects that I have worked on can be found <a href="contributorProjects.html"> here.</a>
+        <br>
+        My styling experimenter for HTML and CSS elements can be found <a href="stylingExperimenter.html"> here.</a>
+        <br>
+        My HTML Document for seeing different HTML and CSS elements displayed can be found <a href="experimentation.html"> here.</a>
+        <br>
+        Submit feedback on the website via this form:
+        <br>
+        <form action="/feedback.php">
+            <label>Name(Optional):</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label>Page Rating:</label><br>
+            <input type="range" id="rating" name="rating" min="0" max="10" value="5"><br>
+            <label>Other Feedback (Optional):</label><br>
+            <input type="text" id="feedback" name="feedback"><br>
+            <input type="submit" value="Submit Feedback"> <input type="reset" value="Reset Form"> <br>
+        </form>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/z0-iPaks_Gk?si=ED8TsSy2Dz7y_zq3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </p>
+    <!-- Link to access Xampp self-host web server:
+    http://localhost/portfolio.experimentation/portfolio.html 
+    -->
+</body>
+</html>
